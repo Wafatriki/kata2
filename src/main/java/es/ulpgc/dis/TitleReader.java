@@ -17,8 +17,6 @@ public class TitleReader {
             BufferedReader reader = new BufferedReader(new FileReader("./title.basics.tsv"));
             reader.readLine();
             return readWith(reader);
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
