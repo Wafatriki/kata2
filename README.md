@@ -1,4 +1,4 @@
-# Kata2
+# Kata 2
 
 ## Descripción
 
